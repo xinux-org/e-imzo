@@ -19,7 +19,7 @@ This is Uzbek Xinux community (nix users mostly) member's effort on packaging E-
 > Think thrice before using this software. We had to let the service have access to memory segments to make it work. It refuses to work in sandboxed environments. Apart from that, it also consumes huge amount of memory heaps to run the service continuously. **We don't take any responsibility** for whatever this software does to you and your computer. We just provide packaging support for this piece of garbage as community demands it.
 
 > [!NOTE]
-> Due to E-IMZO's malicious behavior, we won't be adding this software to [nixpkgs](https://github.com/NixOS/nixpkgs) nor support if someone attempts to.
+> We are currently working on upstreaming the NixOS module to nixpkgs: https://github.com/NixOS/nixpkgs/pull/393835
 
 ## Guides & Use
 
