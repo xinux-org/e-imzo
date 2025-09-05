@@ -56,7 +56,6 @@ impl SimpleComponent for WelcomeModel {
 
             if check_service_installed("/etc/systemd/user/e-imzo.service") {
               gtk::Label {
-                  add_css_class: relm4::css::TITLE_4,
                   #[watch]
                   set_label: &gettext("Please click the red button to start e-imzo service"),
                   set_margin_all: 1,
