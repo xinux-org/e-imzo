@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 15:50+0500\n"
+"POT-Creation-Date: 2025-09-05 16:10+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:3
+#: data/uz.xinux.EIMZOManager.desktop.in.in:2
 #: data/uz.xinux.EIMZOManager.metainfo.xml.in.in:6
 msgid "E-IMZO Manager"
 msgstr ""
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:4
+#: data/uz.xinux.EIMZOManager.desktop.in.in:3
 msgid "Nix effort for E-IMZO service."
 msgstr ""
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:9
+#: data/uz.xinux.EIMZOManager.desktop.in.in:8
 msgid "Gnome;GTK;"
 msgstr ""
 
@@ -71,46 +71,50 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr ""
 
-#: src/app.rs:60
+#: src/app.rs:61
 msgid "Awesome E-IMZO"
 msgstr ""
 
-#: src/app.rs:61
+#: src/app.rs:62
 msgid "Keyboard"
 msgstr ""
 
-#: src/app.rs:62
+#: src/app.rs:63
 msgid "About E-IMZO Manager"
 msgstr ""
 
-#: src/app.rs:226
+#: src/app.rs:225
 msgid "E-IMZO service stopped"
 msgstr ""
 
-#: src/app.rs:237
+#: src/app.rs:235
 msgid "E-IMZO service started"
 msgstr ""
 
-#: src/pages/welcome.rs:51
+#: src/pages/welcome.rs:53
 msgid "Welcome to E-imzo"
 msgstr ""
 
-#: src/pages/welcome.rs:62
-msgid "Please download and relaunch the app again."
+#: src/pages/welcome.rs:61
+msgid "Please click the red button to start e-imzo service"
 msgstr ""
 
-#: src/pages/select_mode.rs:55
+#: src/pages/welcome.rs:66
+msgid "Please download e-imzo service and relaunch the app again."
+msgstr ""
+
+#: src/pages/select_mode.rs:62
 msgid "No certificates"
 msgstr ""
 
-#: src/pages/select_mode.rs:56
+#: src/pages/select_mode.rs:63
 msgid "Load some certificates to start using the app."
 msgstr ""
 
-#: src/pages/select_mode.rs:74
-msgid "Loaded certificates"
+#: src/pages/select_mode.rs:81
+msgid "Loaded keys"
 msgstr ""
 
-#: src/pages/select_mode.rs:195
+#: src/pages/select_mode.rs:182
 msgid "File already exists. You can use it"
 msgstr ""

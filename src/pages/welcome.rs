@@ -13,6 +13,8 @@ use relm4::{
     *,
 };
 
+use crate::utils::check_service_installed;
+
 fn embedded_logo() -> Texture {
     let bytes = include_bytes!("../../.github/assets/logo.png");
     let g_bytes = glib::Bytes::from(&bytes.to_vec());
@@ -52,19 +54,28 @@ impl SimpleComponent for WelcomeModel {
                 set_margin_all: 1,
             },
 
-            gtk::LinkButton {
-                set_label: "e-imzo",
-                set_uri: "https://search.nixos.org/packages?channel=25.05&show=e-imzo&from=0&size=50&sort=relevance&type=packages&query=e-imzo",
+            if check_service_installed("/etc/systemd/user/e-imzo.service") {
+              gtk::Label {
+                  add_css_class: relm4::css::TITLE_4,
+                  #[watch]
+                  set_label: &gettext("Please click the red button to start e-imzo service"),
+                  set_margin_all: 1,
+              }
+            } else {
+              gtk::LinkButton {
+                  set_label: &gettext("Please download e-imzo service and relaunch the app again."),
+                  set_uri: "https://search.nixos.org/packages?channel=25.05&show=e-imzo&from=0&size=50&sort=relevance&type=packages&query=e-imzo",
+              }
             },
 
-            gtk::Label {
-                add_css_class: relm4::css::TITLE_4,
-                #[watch]
-                set_markup: &gettext("Please download and relaunch the app again."),
-                set_use_markup: true,
-                set_margin_all: 5,
-                set_justify: gtk::Justification::Center,
-            },
+            // gtk::Label {
+            //     add_css_class: relm4::css::TITLE_4,
+            //     #[watch]
+            //     set_markup: &gettext("Please download and relaunch the app again."),
+            //     set_use_markup: true,
+            //     set_margin_all: 5,
+            //     set_justify: gtk::Justification::Center,
+            // },
         }
     }
     fn init(

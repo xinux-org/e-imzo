@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 15:50+0500\n"
-"PO-Revision-Date: 2025-08-26 15:54+0500\n"
+"POT-Creation-Date: 2025-09-05 16:10+0500\n"
+"PO-Revision-Date: 2025-09-05 16:28+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uz\n"
@@ -18,16 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:3
+#: data/uz.xinux.EIMZOManager.desktop.in.in:2
 #: data/uz.xinux.EIMZOManager.metainfo.xml.in.in:6
 msgid "E-IMZO Manager"
 msgstr "E-IMZO Manager"
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:4
+#: data/uz.xinux.EIMZOManager.desktop.in.in:3
 msgid "Nix effort for E-IMZO service."
 msgstr "E-IMZO xizmati uchun Nix harakati."
 
-#: data/uz.xinux.EIMZOManager.desktop.in.in:9
+#: data/uz.xinux.EIMZOManager.desktop.in.in:8
 msgid "Gnome;GTK;"
 msgstr "Gnome;GTK;"
 
@@ -74,47 +74,53 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Chiqish"
 
-#: src/app.rs:60
+#: src/app.rs:61
 msgid "Awesome E-IMZO"
 msgstr "E-IMZO ro'yxati"
 
-#: src/app.rs:61
+#: src/app.rs:62
 msgid "Keyboard"
 msgstr "Klaviatura"
 
-#: src/app.rs:62
+#: src/app.rs:63
 msgid "About E-IMZO Manager"
 msgstr "E-IMZO Manager haqida"
 
-#: src/app.rs:226
+#: src/app.rs:225
 msgid "E-IMZO service stopped"
 msgstr "E-IMZO servisi o‘chirildi"
 
-#: src/app.rs:237
+#: src/app.rs:235
 msgid "E-IMZO service started"
 msgstr "E-IMZO servisi yondi"
 
-#: src/pages/welcome.rs:51
+#: src/pages/welcome.rs:53
 msgid "Welcome to E-imzo"
 msgstr "E-imzoga xush kelibsiz"
 
-#: src/pages/welcome.rs:62
-msgid "Please download and relaunch the app again."
+#: src/pages/welcome.rs:61
+msgid "Please click the red button to start e-imzo service"
+msgstr "Iltimos e-imzo servisini yoqish uchun qizil tugmani bosing"
+
+#: src/pages/welcome.rs:66
+#, fuzzy
+#| msgid "Please download and relaunch the app again."
+msgid "Please download e-imzo service and relaunch the app again."
 msgstr "Iltimos, ilovani yuklab oling va qayta ishga tushiring."
 
-#: src/pages/select_mode.rs:55
+#: src/pages/select_mode.rs:62
 msgid "No certificates"
 msgstr "Sertifikatlar yo'q"
 
-#: src/pages/select_mode.rs:56
+#: src/pages/select_mode.rs:63
 msgid "Load some certificates to start using the app."
 msgstr "Ilovadan foydalanishni boshlash uchun ba'zi sertifikatlarni yuklang."
 
-#: src/pages/select_mode.rs:74
-msgid "Loaded certificates"
-msgstr "Sertifikatlarni yuklang"
+#: src/pages/select_mode.rs:81
+msgid "Loaded keys"
+msgstr "Kalitni yuklang"
 
-#: src/pages/select_mode.rs:195
+#: src/pages/select_mode.rs:182
 msgid "File already exists. You can use it"
 msgstr "Fayl allaqachon mavjud. Siz e-imzo kalitini foydalanishingiz mumkin"
 
