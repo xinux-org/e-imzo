@@ -78,7 +78,7 @@ impl AsyncComponent for SelectModePage {
                             gtk::Label {
                                 add_css_class: relm4::css::TITLE_2,
                                 #[watch]
-                                set_label: &gettext("Loaded certificates"),
+                                set_label: &gettext("Loaded keys"),
                                 set_margin_all: 1,
                             },
                             set_spacing: 20,

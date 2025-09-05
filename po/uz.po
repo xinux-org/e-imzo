@@ -118,7 +118,7 @@ msgstr "Ilovadan foydalanishni boshlash uchun ba'zi sertifikatlarni yuklang."
 
 #: src/pages/select_mode.rs:81
 msgid "Loaded keys"
-msgstr "Kalitni yuklang"
+msgstr "Yuklangan kalitlar"
 
 #: src/pages/select_mode.rs:182
 msgid "File already exists. You can use it"

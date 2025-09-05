@@ -25,8 +25,6 @@ impl SimpleComponent for AwesomeModel {
                 #[wrap(Some)]
                 set_content = &adw::PreferencesPage {
                     adw::PreferencesGroup {
-                        set_title: "Websites",
-
                         adw::ActionRow {
                             set_title: "ahost.uz",
                             add_suffix = &gtk::LinkButton::builder()
